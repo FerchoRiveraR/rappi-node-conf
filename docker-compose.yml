@@ -1,0 +1,10 @@
+version: '3'
+services:
+  postgres-nodeconfg:
+    image: postgres:9.6
+    environment:
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: toor
+      POSTGRES_DB: rappi
+    ports:
+      - "5432:5432"
